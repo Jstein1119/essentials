@@ -163,4 +163,13 @@
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
+    <fields>
+        <fullName>Checkbox_Field__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This is a Checkbox Field with update</description>
+        <externalId>false</externalId>
+        <label>Checkbox Field</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
 </CustomObject>
