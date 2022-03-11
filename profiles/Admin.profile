@@ -78,6 +78,11 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>false</editable>
+        <field>House__c.Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.AccountNumber</field>
         <readable>false</readable>
     </fieldPermissions>
