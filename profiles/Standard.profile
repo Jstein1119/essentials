@@ -77,7 +77,7 @@
     </applicationVisibilities>
     <custom>false</custom>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>House__c.Bedrooms__c</field>
         <readable>true</readable>
     </fieldPermissions>
