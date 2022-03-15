@@ -2,9 +2,9 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Advertisement</fullName>
+        <fullName>Advertisements</fullName>
         <default>false</default>
-        <label>Advertisement</label>
+        <label>Advertisements</label>
     </standardValue>
     <standardValue>
         <fullName>Employee Referral</fullName>
@@ -60,5 +60,10 @@
         <fullName>CRT</fullName>
         <default>false</default>
         <label>CRT</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CRT1</fullName>
+        <default>false</default>
+        <label>CRT1</label>
     </standardValue>
 </StandardValueSet>
