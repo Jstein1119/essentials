@@ -164,6 +164,17 @@
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
     <fields>
+        <fullName>Sample_Change__c</fullName>
+        <description>This is a sample field change - 1</description>
+        <externalId>false</externalId>
+        <label>Sample Change</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
         <fullName>Bedrooms__c</fullName>
         <externalId>false</externalId>
         <label>Bedrooms</label>
