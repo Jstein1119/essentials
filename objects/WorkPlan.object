@@ -130,51 +130,16 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>BusinessHoursId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Category</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-    </fields>
-    <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>DetectedDateTime</fullName>
+        <fullName>ExecutionOrder</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>EndDateTime</fullName>
+        <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>EntitlementId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Impact</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>IsClosed</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>IsMajorIncident</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>IsStopped</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>MilestoneStatus</fullName>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
@@ -182,87 +147,41 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>ParentIncidentId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Hierarchy</type>
-    </fields>
-    <fields>
-        <fullName>Priority</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>PriorityOverrideReason</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>ReportedMethod</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>ResolutionDateTime</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>ResolutionSummary</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>ResolvedById</fullName>
+        <fullName>ParentRecordId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>SlaExitDate</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>ParentRecordType</fullName>
     </fields>
     <fields>
-        <fullName>SlaStartDate</fullName>
+        <fullName>WorkOrderId</fullName>
         <trackHistory>false</trackHistory>
+        <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>StartDateTime</fullName>
+        <fullName>WorkOrderLineItemId</fullName>
         <trackHistory>false</trackHistory>
+        <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Status</fullName>
+        <fullName>WorkPlanTemplateId</fullName>
         <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>StatusCode</fullName>
-    </fields>
-    <fields>
-        <fullName>StopStartDate</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>SubCategory</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>Subject</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>Type</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>Urgency</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
+        <type>Lookup</type>
     </fields>
     <searchLayouts>
-        <customTabListAdditionalFields>Subject</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Priority</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>Subject</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Priority</searchResultsAdditionalFields>
+        <customTabListAdditionalFields>Description</customTabListAdditionalFields>
+        <customTabListAdditionalFields>WorkOrder</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ExecutionOrder</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Description</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>WorkOrder</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ExecutionOrder</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Description</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>WorkOrder</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ExecutionOrder</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Description</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>WorkOrder</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ExecutionOrder</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
 </CustomObject>

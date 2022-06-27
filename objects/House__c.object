@@ -143,7 +143,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>This is an object for House. This is a sample change #151.</description>
+    <description>This is an object for House. This is a sample change #199.</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -154,26 +154,6 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>House</label>
-    <nameField>
-        <label>House Name</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Houses</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
-    <fields>
-        <fullName>Sample_Change__c</fullName>
-        <description>This is a sample field change - 1</description>
-        <externalId>false</externalId>
-        <label>Sample Change</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackTrending>false</trackTrending>
-        <type>Percent</type>
-    </fields>
     <fields>
         <fullName>Bedrooms__c</fullName>
         <externalId>false</externalId>
@@ -184,4 +164,33 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>Checkbox_Field__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This is a Checkbox Field with update</description>
+        <externalId>false</externalId>
+        <label>Checkbox Field</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Sample_Change__c</fullName>
+        <description>This is a sample field change - 3</description>
+        <externalId>false</externalId>
+        <label>Sample Change</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <label>House</label>
+    <nameField>
+        <label>House Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Houses</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
 </CustomObject>

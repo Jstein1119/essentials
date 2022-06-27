@@ -79,6 +79,17 @@
         <style>CustomLinks</style>
     </layoutSections>
     <relatedLists>
+        <fields>Name</fields>
+        <fields>ExecutionOrder</fields>
+        <relatedList>WorkPlans</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>Status</fields>
+        <fields>ExecutionOrder</fields>
+        <relatedList>WorkSteps</relatedList>
+    </relatedLists>
+    <relatedLists>
         <fields>TASK.SUBJECT</fields>
         <fields>TASK.WHO_NAME</fields>
         <fields>ACTIVITY.TASK</fields>

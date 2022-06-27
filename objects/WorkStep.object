@@ -126,103 +126,77 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
+    <actionOverrides>
+        <actionName>WorkStepComplete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>WorkStepComplete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>WorkStepComplete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>WorkStepNotApplicable</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>WorkStepNotApplicable</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>WorkStepNotApplicable</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <externalSharingModel>Private</externalSharingModel>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
-        <fullName>BusinessHoursId</fullName>
+        <fullName>ActionDefinition</fullName>
+        <inlineHelpText>Find and select the associated global action, quick action, screen flow, or mobile flow.</inlineHelpText>
         <trackHistory>false</trackHistory>
-        <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Category</fullName>
+        <fullName>ActionType</fullName>
         <trackHistory>false</trackHistory>
-        <type>Picklist</type>
     </fields>
     <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>DetectedDateTime</fullName>
+        <fullName>EndTime</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>EndDateTime</fullName>
+        <fullName>ExecutionOrder</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>EntitlementId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Impact</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>IsClosed</fullName>
+        <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>IsMajorIncident</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>IsStopped</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>MilestoneStatus</fullName>
-    </fields>
-    <fields>
-        <fullName>OwnerId</fullName>
+        <fullName>ParentRecordId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>ParentIncidentId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Hierarchy</type>
+        <fullName>ParentRecordType</fullName>
     </fields>
     <fields>
-        <fullName>Priority</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>PriorityOverrideReason</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>ReportedMethod</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>ResolutionDateTime</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>ResolutionSummary</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>ResolvedById</fullName>
+        <fullName>PausedFlowInterviewId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>SlaExitDate</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>SlaStartDate</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>StartDateTime</fullName>
+        <fullName>StartTime</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -231,38 +205,36 @@
         <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>StatusCode</fullName>
-    </fields>
-    <fields>
-        <fullName>StopStartDate</fullName>
+        <fullName>StatusCategory</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>SubCategory</fullName>
+        <fullName>WorkOrderId</fullName>
         <trackHistory>false</trackHistory>
-        <type>Picklist</type>
+        <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Subject</fullName>
+        <fullName>WorkOrderLineItemId</fullName>
         <trackHistory>false</trackHistory>
+        <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Type</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
+        <fullName>WorkPlanExecutionOrder</fullName>
     </fields>
     <fields>
-        <fullName>Urgency</fullName>
+        <fullName>WorkPlanId</fullName>
         <trackHistory>false</trackHistory>
-        <type>Picklist</type>
+        <type>MasterDetail</type>
     </fields>
     <searchLayouts>
-        <customTabListAdditionalFields>Subject</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Priority</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>Subject</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Priority</searchResultsAdditionalFields>
+        <customTabListAdditionalFields>Description</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ActionDefinition</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Description</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ActionDefinition</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Description</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ActionDefinition</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Description</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ActionDefinition</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>Private</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

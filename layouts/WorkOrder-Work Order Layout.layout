@@ -111,6 +111,18 @@
     </miniLayout>
     <relatedLists>
         <fields>Name</fields>
+        <fields>ExecutionOrder</fields>
+        <fields>WorkOrderLineItem</fields>
+        <relatedList>WorkPlans</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>Status</fields>
+        <fields>ExecutionOrder</fields>
+        <relatedList>WorkSteps</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
         <fields>Asset</fields>
         <relatedList>WorkOrderLineItems</relatedList>
     </relatedLists>
