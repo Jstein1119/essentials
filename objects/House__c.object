@@ -143,7 +143,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>This is an object for House. This is a sample change #231.</description>
+    <description>This is an object for House. This is a sample change #239.</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -156,7 +156,7 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Bedrooms__c</fullName>
-        <description>Test change in Prod 8.</description>
+        <description>Test change in Prod 10.</description>
         <externalId>false</externalId>
         <label>Bedrooms</label>
         <length>10</length>
