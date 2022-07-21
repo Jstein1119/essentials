@@ -156,7 +156,7 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Bedrooms__c</fullName>
-        <description>Test change in Prod 5.</description>
+        <description>Test change in Prod 8.</description>
         <externalId>false</externalId>
         <label>Bedrooms</label>
         <length>10</length>
@@ -176,7 +176,7 @@
     </fields>
     <fields>
         <fullName>Sample_Change__c</fullName>
-        <description>This is a sample field change - 4</description>
+        <description>This is a sample field change - 5</description>
         <externalId>false</externalId>
         <label>Sample Change</label>
         <precision>18</precision>
@@ -184,6 +184,31 @@
         <scale>0</scale>
         <trackTrending>false</trackTrending>
         <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <description>Change 7</description>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>single home</fullName>
+                    <default>false</default>
+                    <label>single home</label>
+                </value>
+                <value>
+                    <fullName>multi home</fullName>
+                    <default>false</default>
+                    <label>multi home</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <label>House</label>
     <nameField>

@@ -20,5 +20,17 @@
         <label><!-- Sample Change --></label>
         <name>Sample_Change__c</name>
     </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>multi home</masterLabel>
+            <translation><!-- multi home --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>single home</masterLabel>
+            <translation><!-- single home --></translation>
+        </picklistValues>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
