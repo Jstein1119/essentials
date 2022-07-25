@@ -176,7 +176,7 @@
     </fields>
     <fields>
         <fullName>Sample_Change__c</fullName>
-        <description>This is a sample field change - 5</description>
+        <description>This is a sample field change - 7</description>
         <externalId>false</externalId>
         <label>Sample Change</label>
         <precision>18</precision>
