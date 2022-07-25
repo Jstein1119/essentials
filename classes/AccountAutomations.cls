@@ -12,7 +12,7 @@ public class AccountAutomations {
     }
     public static Account setDefaultShippingAddress(Account a){
         a.shippingstreet = '111 W Illinois St'; 
-        a.shippingstate = 'Santa Fe';
+        a.shippingstate = 'Charlotte';
         a.shippingpostalcode ='60654';
         return a;
     }
