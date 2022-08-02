@@ -164,6 +164,31 @@
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
     <fields>
+        <fullName>Type__c</fullName>
+        <description>Change 9</description>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>single home</fullName>
+                    <default>false</default>
+                    <label>single home</label>
+                </value>
+                <value>
+                    <fullName>multi home</fullName>
+                    <default>false</default>
+                    <label>multi home</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Sample_Change__c</fullName>
         <description>This is a sample field change - 7</description>
         <externalId>false</externalId>
