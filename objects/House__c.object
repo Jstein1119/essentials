@@ -156,7 +156,7 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Bedrooms__c</fullName>
-        <description>Test change in Prod 17.</description>
+        <description>Test change in Prod 19.</description>
         <externalId>false</externalId>
         <label>Bedrooms</label>
         <length>10</length>
