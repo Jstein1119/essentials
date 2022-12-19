@@ -165,7 +165,7 @@
     <visibility>Public</visibility>
     <fields>
         <fullName>Sample_Change__c</fullName>
-        <description>This is a sample field change - 19</description>
+        <description>This is a sample field change - 20</description>
         <externalId>false</externalId>
         <label>Sample Change</label>
         <precision>18</precision>
