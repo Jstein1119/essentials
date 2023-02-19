@@ -157,10 +157,13 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
-    <fields>
-        <fullName>Description</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
+    <searchLayouts>
+        <customTabListAdditionalFields>UserCount</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>UserCount</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>UserCount</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>UserCount</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
     <fields>
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
@@ -169,11 +172,8 @@
         <fullName>UserCount</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>UserCount</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>UserCount</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>UserCount</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>UserCount</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <fields>
+        <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
 </CustomObject>

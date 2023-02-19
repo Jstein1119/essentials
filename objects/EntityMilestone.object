@@ -73,17 +73,23 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ReadWrite</externalSharingModel>
+    <sharingModel>ReadWrite</sharingModel>
     <fields>
-        <fullName>ActualElapsedTimeInDays</fullName>
+        <fullName>StartDate</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>ActualElapsedTimeInHrs</fullName>
+        <fullName>IsViolated</fullName>
     </fields>
     <fields>
-        <fullName>ActualElapsedTimeInMins</fullName>
+        <fullName>TargetDate</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>BusinessHoursId</fullName>
+        <fullName>IsCompleted</fullName>
+    </fields>
+    <fields>
+        <fullName>SlaProcessId</fullName>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -91,80 +97,69 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>ElapsedTimeInDays</fullName>
+        <fullName>ParentEntityId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BusinessHoursId</fullName>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>ElapsedTimeInHrs</fullName>
+    </fields>
+    <fields>
+        <fullName>StoppedTimeInHrs</fullName>
+    </fields>
+    <fields>
+        <fullName>ElapsedTimeInDays</fullName>
     </fields>
     <fields>
         <fullName>ElapsedTimeInMins</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>IsCompleted</fullName>
-    </fields>
-    <fields>
-        <fullName>IsViolated</fullName>
-    </fields>
-    <fields>
-        <fullName>MilestoneId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>ParentEntityId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>SlaProcessId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>StartDate</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
         <fullName>StoppedTimeInDays</fullName>
-    </fields>
-    <fields>
-        <fullName>StoppedTimeInHrs</fullName>
     </fields>
     <fields>
         <fullName>StoppedTimeInMins</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>TargetDate</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>TargetResponseInDays</fullName>
+        <fullName>TimeRemainingInHrs</fullName>
     </fields>
     <fields>
         <fullName>TargetResponseInHrs</fullName>
+    </fields>
+    <fields>
+        <fullName>TimeRemainingInDays</fullName>
+    </fields>
+    <fields>
+        <fullName>TimeRemainingInMins</fullName>
+    </fields>
+    <fields>
+        <fullName>TargetResponseInDays</fullName>
     </fields>
     <fields>
         <fullName>TargetResponseInMins</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>TimeRemainingInDays</fullName>
-    </fields>
-    <fields>
-        <fullName>TimeRemainingInHrs</fullName>
-    </fields>
-    <fields>
-        <fullName>TimeRemainingInMins</fullName>
+        <fullName>TimeSinceTargetInHrs</fullName>
     </fields>
     <fields>
         <fullName>TimeSinceTargetInDays</fullName>
     </fields>
     <fields>
-        <fullName>TimeSinceTargetInHrs</fullName>
-    </fields>
-    <fields>
         <fullName>TimeSinceTargetInMins</fullName>
     </fields>
-    <sharingModel>ReadWrite</sharingModel>
+    <fields>
+        <fullName>ActualElapsedTimeInHrs</fullName>
+    </fields>
+    <fields>
+        <fullName>ActualElapsedTimeInDays</fullName>
+    </fields>
+    <fields>
+        <fullName>ActualElapsedTimeInMins</fullName>
+    </fields>
 </CustomObject>

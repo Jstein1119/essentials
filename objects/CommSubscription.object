@@ -129,17 +129,11 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
-    <fields>
-        <fullName>DataUsePurposeId</fullName>
-        <inlineHelpText>The data use purpose record associated with the communication subscription.</inlineHelpText>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>IsDefault</fullName>
-        <inlineHelpText>Set this communication subscription as the default.</inlineHelpText>
-        <trackHistory>false</trackHistory>
-    </fields>
+    <searchLayouts>
+        <customTabListAdditionalFields>DataUsePurpose</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>DataUsePurpose</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
@@ -149,9 +143,4 @@
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>DataUsePurpose</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>DataUsePurpose</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

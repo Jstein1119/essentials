@@ -154,6 +154,23 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
+    <label>SEC</label>
+    <nameField>
+        <label>SEC Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>SECs</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>Word__c</fullName>
+        <externalId>false</externalId>
+        <label>Word</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Time</type>
+    </fields>
     <fields>
         <fullName>Money__c</fullName>
         <externalId>false</externalId>
@@ -164,21 +181,4 @@
         <trackTrending>false</trackTrending>
         <type>Currency</type>
     </fields>
-    <fields>
-        <fullName>Word__c</fullName>
-        <externalId>false</externalId>
-        <label>Word</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Time</type>
-    </fields>
-    <label>SEC</label>
-    <nameField>
-        <label>SEC Name</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>SECs</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
 </CustomObject>

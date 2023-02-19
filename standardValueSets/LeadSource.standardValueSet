@@ -56,9 +56,4 @@
         <default>false</default>
         <label>Other</label>
     </standardValue>
-    <standardValue>
-        <fullName>CRT</fullName>
-        <default>false</default>
-        <label>CRT</label>
-    </standardValue>
 </StandardValueSet>

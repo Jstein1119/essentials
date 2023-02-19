@@ -129,22 +129,19 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Subject</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Priority</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>Subject</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Priority</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
     <fields>
-        <fullName>Category</fullName>
+        <fullName>Type</fullName>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>Description</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>DetectedDateTime</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>EndDateTime</fullName>
-        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Impact</fullName>
@@ -152,8 +149,9 @@
         <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>IsMajorIncident</fullName>
+        <fullName>Status</fullName>
         <trackHistory>false</trackHistory>
+        <type>Picklist</type>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
@@ -161,9 +159,18 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>ParentIncidentId</fullName>
+        <fullName>Subject</fullName>
         <trackHistory>false</trackHistory>
-        <type>Hierarchy</type>
+    </fields>
+    <fields>
+        <fullName>Urgency</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Category</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
     </fields>
     <fields>
         <fullName>Priority</fullName>
@@ -171,21 +178,20 @@
         <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>PriorityOverrideReason</fullName>
+        <fullName>StatusCode</fullName>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>ReportedMethod</fullName>
+        <fullName>EndDateTime</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>SubCategory</fullName>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>ResolutionDateTime</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>ResolutionSummary</fullName>
-        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>ResolvedById</fullName>
@@ -197,40 +203,33 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>Status</fullName>
+        <fullName>ReportedMethod</fullName>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>StatusCode</fullName>
+        <fullName>IsMajorIncident</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>SubCategory</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>Subject</fullName>
+        <fullName>DetectedDateTime</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>Type</fullName>
+        <fullName>ParentIncidentId</fullName>
         <trackHistory>false</trackHistory>
-        <type>Picklist</type>
+        <type>Hierarchy</type>
     </fields>
     <fields>
-        <fullName>Urgency</fullName>
+        <fullName>ResolutionSummary</fullName>
         <trackHistory>false</trackHistory>
-        <type>Picklist</type>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>Subject</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Priority</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>Subject</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Priority</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>Private</sharingModel>
+    <fields>
+        <fullName>ResolutionDateTime</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PriorityOverrideReason</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
 </CustomObject>

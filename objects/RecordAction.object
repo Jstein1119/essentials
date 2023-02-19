@@ -2,11 +2,25 @@
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ReadWrite</externalSharingModel>
+    <sharingModel>ReadWrite</sharingModel>
     <fields>
-        <fullName>ActionDefinition</fullName>
+        <fullName>Order</fullName>
+    </fields>
+    <fields>
+        <fullName>Pinned</fullName>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+    </fields>
+    <fields>
+        <fullName>RecordId</fullName>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>ActionType</fullName>
+    </fields>
+    <fields>
+        <fullName>IsMandatory</fullName>
     </fields>
     <fields>
         <fullName>FlowDefinition</fullName>
@@ -16,23 +30,9 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>IsMandatory</fullName>
+        <fullName>ActionDefinition</fullName>
     </fields>
     <fields>
         <fullName>IsUiRemoveHidden</fullName>
     </fields>
-    <fields>
-        <fullName>Order</fullName>
-    </fields>
-    <fields>
-        <fullName>Pinned</fullName>
-    </fields>
-    <fields>
-        <fullName>RecordId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Status</fullName>
-    </fields>
-    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

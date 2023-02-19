@@ -129,23 +129,10 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <sharingModel>ReadWrite</sharingModel>
     <fields>
-        <fullName>OwnerId</fullName>
+        <fullName>WhoId</fullName>
         <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>PreferredChannel</fullName>
-        <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>PreferredPhone</fullName>
-    </fields>
-    <fields>
-        <fullName>RequestDescription</fullName>
-    </fields>
-    <fields>
-        <fullName>RequestReason</fullName>
-        <type>Picklist</type>
     </fields>
     <fields>
         <fullName>Status</fullName>
@@ -156,8 +143,21 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>WhoId</fullName>
+        <fullName>OwnerId</fullName>
         <type>Lookup</type>
     </fields>
-    <sharingModel>ReadWrite</sharingModel>
+    <fields>
+        <fullName>RequestReason</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>PreferredPhone</fullName>
+    </fields>
+    <fields>
+        <fullName>PreferredChannel</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>RequestDescription</fullName>
+    </fields>
 </CustomObject>

@@ -129,63 +129,6 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
-    <fields>
-        <fullName>BusinessBrandId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>CommSubscriptionChannelTypeId</fullName>
-        <inlineHelpText>The communication subscription channel type record associated with the communication subscription consent.</inlineHelpText>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>ConsentCapturedDateTime</fullName>
-        <inlineHelpText>Date and time that consent was given.</inlineHelpText>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>ConsentCapturedSource</fullName>
-        <inlineHelpText>Source through which consent was captured. For example, user@example.com or www.example.com.</inlineHelpText>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>ConsentGiverId</fullName>
-        <inlineHelpText>The person consenting to the communication subscription.</inlineHelpText>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>ContactPointId</fullName>
-        <inlineHelpText>The contact point record associated with the communication subscription consent.</inlineHelpText>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>EffectiveFromDate</fullName>
-        <inlineHelpText>Date when consent starts.</inlineHelpText>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>EffectiveToDate</fullName>
-        <inlineHelpText>Date when consent ends.</inlineHelpText>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>Name</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>OwnerId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>PartyRoleId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>ConsentGiver</customTabListAdditionalFields>
         <customTabListAdditionalFields>ContactPoint</customTabListAdditionalFields>
@@ -201,4 +144,56 @@
         <searchResultsAdditionalFields>ConsentCapturedSource</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
+    <fields>
+        <fullName>Name</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PartyRoleId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ConsentGiverId</fullName>
+        <inlineHelpText>The person consenting to the communication subscription.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ContactPointId</fullName>
+        <inlineHelpText>The contact point record associated with the communication subscription consent.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BusinessBrandId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>EffectiveFromDate</fullName>
+        <inlineHelpText>Date when consent starts.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ConsentCapturedSource</fullName>
+        <inlineHelpText>Source through which consent was captured. For example, user@example.com or www.example.com.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ConsentCapturedDateTime</fullName>
+        <inlineHelpText>Date and time that consent was given.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CommSubscriptionChannelTypeId</fullName>
+        <inlineHelpText>The communication subscription channel type record associated with the communication subscription consent.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
 </CustomObject>

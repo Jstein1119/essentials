@@ -164,17 +164,8 @@
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
     <fields>
-        <fullName>Checkbox_Field__c</fullName>
-        <defaultValue>false</defaultValue>
-        <description>This is a Checkbox Field with update 22</description>
-        <externalId>false</externalId>
-        <label>Checkbox Field</label>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>Type__c</fullName>
-        <description>Change 27</description>
+        <description>Change 31</description>
         <externalId>false</externalId>
         <label>Type</label>
         <required>false</required>
@@ -198,6 +189,17 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Bedrooms__c</fullName>
+        <description>Test change in Prod 32.</description>
+        <externalId>false</externalId>
+        <label>Bedrooms</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Sample_Change__c</fullName>
         <description>This is a sample field change - 21</description>
         <externalId>false</externalId>
@@ -209,14 +211,12 @@
         <type>Percent</type>
     </fields>
     <fields>
-        <fullName>Bedrooms__c</fullName>
-        <description>Test change in Prod 32.</description>
+        <fullName>Checkbox_Field__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This is a Checkbox Field with update 22</description>
         <externalId>false</externalId>
-        <label>Bedrooms</label>
-        <length>10</length>
-        <required>false</required>
+        <label>Checkbox Field</label>
         <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
+        <type>Checkbox</type>
     </fields>
 </CustomObject>

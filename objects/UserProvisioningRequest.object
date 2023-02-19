@@ -3,45 +3,6 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
-    <fields>
-        <fullName>AppName</fullName>
-    </fields>
-    <fields>
-        <fullName>ApprovalStatus</fullName>
-    </fields>
-    <fields>
-        <fullName>ConnectedAppId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>ManagerId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Operation</fullName>
-    </fields>
-    <fields>
-        <fullName>OwnerId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>ParentId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>RetryCount</fullName>
-    </fields>
-    <fields>
-        <fullName>SalesforceUserId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>State</fullName>
-    </fields>
-    <fields>
-        <fullName>UserProvAccountId</fullName>
-        <type>Lookup</type>
-    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>ConnectedApp</customTabListAdditionalFields>
         <customTabListAdditionalFields>Operation</customTabListAdditionalFields>
@@ -59,4 +20,43 @@
         <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
+    <fields>
+        <fullName>State</fullName>
+    </fields>
+    <fields>
+        <fullName>AppName</fullName>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ParentId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ManagerId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Operation</fullName>
+    </fields>
+    <fields>
+        <fullName>RetryCount</fullName>
+    </fields>
+    <fields>
+        <fullName>ApprovalStatus</fullName>
+    </fields>
+    <fields>
+        <fullName>ConnectedAppId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SalesforceUserId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>UserProvAccountId</fullName>
+        <type>Lookup</type>
+    </fields>
 </CustomObject>

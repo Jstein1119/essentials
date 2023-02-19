@@ -129,9 +129,19 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>CommunicationSubscription</customTabListAdditionalFields>
+        <customTabListAdditionalFields>EngagementChannelType</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>CommunicationSubscription</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>EngagementChannelType</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
     <fields>
-        <fullName>CommunicationSubscriptionId</fullName>
-        <inlineHelpText>The communication subscription record associated with the communication subscription channel type.</inlineHelpText>
+        <fullName>Name</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
@@ -142,19 +152,9 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Name</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>OwnerId</fullName>
+        <fullName>CommunicationSubscriptionId</fullName>
+        <inlineHelpText>The communication subscription record associated with the communication subscription channel type.</inlineHelpText>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>CommunicationSubscription</customTabListAdditionalFields>
-        <customTabListAdditionalFields>EngagementChannelType</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>CommunicationSubscription</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>EngagementChannelType</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

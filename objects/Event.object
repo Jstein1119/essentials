@@ -156,74 +156,80 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <fields>
-        <fullName>ActivityDate</fullName>
-    </fields>
-    <fields>
-        <fullName>ActivityDateTime</fullName>
-    </fields>
-    <fields>
-        <fullName>Attendees</fullName>
-    </fields>
-    <fields>
-        <fullName>Description</fullName>
-    </fields>
-    <fields>
-        <fullName>DurationInMinutes</fullName>
-    </fields>
+    <searchLayouts/>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>Email</fullName>
     </fields>
     <fields>
+        <fullName>Phone</fullName>
+    </fields>
+    <fields>
+        <fullName>WhoId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ShowAs</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>WhatId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Subject</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Location</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsPrivate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>EndDateTime</fullName>
+    </fields>
+    <fields>
+        <fullName>ActivityDate</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>EventSubtype</fullName>
     </fields>
     <fields>
         <fullName>IsAllDayEvent</fullName>
-    </fields>
-    <fields>
-        <fullName>IsPrivate</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>IsRecurrence2</fullName>
     </fields>
     <fields>
         <fullName>IsReminderSet</fullName>
-    </fields>
-    <fields>
-        <fullName>Location</fullName>
-    </fields>
-    <fields>
-        <fullName>OwnerId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Phone</fullName>
-    </fields>
-    <fields>
-        <fullName>ShowAs</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>StartDateTime</fullName>
     </fields>
     <fields>
-        <fullName>Subject</fullName>
-        <type>Picklist</type>
+        <fullName>ActivityDateTime</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>Type</fullName>
-        <type>Picklist</type>
+        <fullName>DurationInMinutes</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
-    <fields>
-        <fullName>WhatId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>WhoId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <searchLayouts/>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

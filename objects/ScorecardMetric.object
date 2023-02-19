@@ -129,23 +129,23 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
+    <fields>
+        <fullName>Name</fullName>
+    </fields>
     <fields>
         <fullName>Category</fullName>
         <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>Description</fullName>
-    </fields>
-    <fields>
-        <fullName>Name</fullName>
     </fields>
     <fields>
         <fullName>ReportId</fullName>
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Description</fullName>
+    </fields>
+    <fields>
         <fullName>ScorecardId</fullName>
         <type>MasterDetail</type>
     </fields>
-    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

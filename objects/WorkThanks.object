@@ -44,10 +44,7 @@
     </actionOverrides>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
-    <fields>
-        <fullName>FeedItemId</fullName>
-        <type>Lookup</type>
-    </fields>
+    <sharingModel>Read</sharingModel>
     <fields>
         <fullName>GiverId</fullName>
         <type>Lookup</type>
@@ -59,5 +56,8 @@
         <fullName>OwnerId</fullName>
         <type>Lookup</type>
     </fields>
-    <sharingModel>Read</sharingModel>
+    <fields>
+        <fullName>FeedItemId</fullName>
+        <type>Lookup</type>
+    </fields>
 </CustomObject>

@@ -129,16 +129,18 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <fields>
-        <fullName>ActiveFrom</fullName>
+        <fullName>Type</fullName>
         <trackHistory>false</trackHistory>
+        <type>Picklist</type>
     </fields>
     <fields>
         <fullName>ActiveTo</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>AssociatedLocationNumber</fullName>
+        <fullName>ActiveFrom</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -152,9 +154,7 @@
         <type>MasterDetail</type>
     </fields>
     <fields>
-        <fullName>Type</fullName>
+        <fullName>AssociatedLocationNumber</fullName>
         <trackHistory>false</trackHistory>
-        <type>Picklist</type>
     </fields>
-    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

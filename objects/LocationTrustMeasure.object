@@ -129,35 +129,6 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
-    <fields>
-        <fullName>Description</fullName>
-        <inlineHelpText>Explain how you’ll carry out the trust measure. Be concise. Prioritize clarity over complete sentences — you have only 250 characters.</inlineHelpText>
-    </fields>
-    <fields>
-        <fullName>IconUrl</fullName>
-        <inlineHelpText>The URL where your icon is hosted. You create and host the icon for each trust measure.</inlineHelpText>
-    </fields>
-    <fields>
-        <fullName>IsVisibleInPublic</fullName>
-        <inlineHelpText>Publishes this trust measure to the location you select.</inlineHelpText>
-    </fields>
-    <fields>
-        <fullName>LocationId</fullName>
-        <inlineHelpText>The store, hotel, or other physical space that your business occupies. Each trust measure lives at a single location. If no external reference exists on the location, the trust card won’t display. If you get an error, edit the location to add an external reference.</inlineHelpText>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>OwnerId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>SortOrder</fullName>
-        <inlineHelpText>Indicates where this trust measure is positioned in your layout. For example, in a banner layout, a display order of 1 places the trust card to the left. A display order of 2 places the trust measure to the right of 1.</inlineHelpText>
-    </fields>
-    <fields>
-        <fullName>Title</fullName>
-        <inlineHelpText>The header for your trust measure that’s displayed to viewers. Keep it short and sweet! You can use up to 40 characters, but 20 is best to keep your title on one line.</inlineHelpText>
-    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>Location</customTabListAdditionalFields>
         <customTabListAdditionalFields>Title</customTabListAdditionalFields>
@@ -177,4 +148,33 @@
         <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
+    <fields>
+        <fullName>Title</fullName>
+        <inlineHelpText>The header for your trust measure that’s displayed to viewers. Keep it short and sweet! You can use up to 40 characters, but 20 is best to keep your title on one line.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>IconUrl</fullName>
+        <inlineHelpText>The URL where your icon is hosted. You create and host the icon for each trust measure.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SortOrder</fullName>
+        <inlineHelpText>Indicates where this trust measure is positioned in your layout. For example, in a banner layout, a display order of 1 places the trust card to the left. A display order of 2 places the trust measure to the right of 1.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>LocationId</fullName>
+        <inlineHelpText>The store, hotel, or other physical space that your business occupies. Each trust measure lives at a single location. If no external reference exists on the location, the trust card won’t display. If you get an error, edit the location to add an external reference.</inlineHelpText>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <inlineHelpText>Explain how you’ll carry out the trust measure. Be concise. Prioritize clarity over complete sentences — you have only 250 characters.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>IsVisibleInPublic</fullName>
+        <inlineHelpText>Publishes this trust measure to the location you select.</inlineHelpText>
+    </fields>
 </CustomObject>

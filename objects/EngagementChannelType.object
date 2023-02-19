@@ -129,11 +129,11 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
-    <fields>
-        <fullName>ContactPointType</fullName>
-        <inlineHelpText>The contact point type record associated with the engagement channel type.</inlineHelpText>
-        <trackHistory>false</trackHistory>
-    </fields>
+    <searchLayouts>
+        <customTabListAdditionalFields>ContactPointType</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>ContactPointType</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
@@ -143,9 +143,4 @@
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>ContactPointType</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>ContactPointType</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

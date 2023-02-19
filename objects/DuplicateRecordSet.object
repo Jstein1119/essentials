@@ -129,12 +129,12 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ReadWrite</externalSharingModel>
+    <sharingModel>ReadWrite</sharingModel>
+    <fields>
+        <fullName>RecordCount</fullName>
+    </fields>
     <fields>
         <fullName>DuplicateRuleId</fullName>
         <type>Lookup</type>
     </fields>
-    <fields>
-        <fullName>RecordCount</fullName>
-    </fields>
-    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

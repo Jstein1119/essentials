@@ -143,6 +143,18 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>WorkOrder</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>WorkOrder</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>WorkOrder</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>WorkOrder</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <fields>
+        <fullName>Status</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
     <fields>
         <fullName>Address</fullName>
         <trackHistory>false</trackHistory>
@@ -153,7 +165,16 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Description</fullName>
+        <fullName>EndDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OrderId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Subject</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -165,39 +186,8 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>DurationType</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>EndDate</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
         <fullName>IsClosed</fullName>
         <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>ListPrice</fullName>
-    </fields>
-    <fields>
-        <fullName>LocationId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>OrderId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>ParentWorkOrderLineItemId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>PricebookEntryId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Priority</fullName>
@@ -209,6 +199,50 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>Subtotal</fullName>
+    </fields>
+    <fields>
+        <fullName>ListPrice</fullName>
+    </fields>
+    <fields>
+        <fullName>StartDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>UnitPrice</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LocationId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TotalPrice</fullName>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>WorkOrderId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>DurationType</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>StatusCategory</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PricebookEntryId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>RootWorkOrderLineItemId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
@@ -217,42 +251,8 @@
         <fullName>ServiceAppointmentCount</fullName>
     </fields>
     <fields>
-        <fullName>StartDate</fullName>
+        <fullName>ParentWorkOrderLineItemId</fullName>
         <trackHistory>false</trackHistory>
+        <type>Lookup</type>
     </fields>
-    <fields>
-        <fullName>Status</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>StatusCategory</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>Subject</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>Subtotal</fullName>
-    </fields>
-    <fields>
-        <fullName>TotalPrice</fullName>
-    </fields>
-    <fields>
-        <fullName>UnitPrice</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>WorkOrderId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>MasterDetail</type>
-    </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>WorkOrder</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>WorkOrder</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>WorkOrder</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>WorkOrder</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

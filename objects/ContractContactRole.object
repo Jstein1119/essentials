@@ -72,8 +72,4 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <fields>
-        <fullName>Role</fullName>
-        <type>Picklist</type>
-    </fields>
 </CustomObject>

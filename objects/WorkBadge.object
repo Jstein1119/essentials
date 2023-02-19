@@ -72,28 +72,6 @@
     </actionOverrides>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <fields>
-        <fullName>DefinitionId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Description</fullName>
-    </fields>
-    <fields>
-        <fullName>GiverId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>ImageUrl</fullName>
-    </fields>
-    <fields>
-        <fullName>RecipientId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>SourceId</fullName>
-        <type>MasterDetail</type>
-    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>ImageUrl</customTabListAdditionalFields>
         <customTabListAdditionalFields>Definition</customTabListAdditionalFields>
@@ -117,4 +95,26 @@
         <searchResultsAdditionalFields>Recipient</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
+    <fields>
+        <fullName>GiverId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ImageUrl</fullName>
+    </fields>
+    <fields>
+        <fullName>SourceId</fullName>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+    </fields>
+    <fields>
+        <fullName>RecipientId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>DefinitionId</fullName>
+        <type>Lookup</type>
+    </fields>
 </CustomObject>

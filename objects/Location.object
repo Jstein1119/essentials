@@ -129,25 +129,40 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>LocationType</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>LocationType</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LocationType</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>LocationType</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
     <fields>
-        <fullName>CloseDate</fullName>
+        <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>ConstructionEndDate</fullName>
+        <fullName>LogoId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>IsMobile</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>ConstructionStartDate</fullName>
+        <fullName>LocationType</fullName>
         <trackHistory>false</trackHistory>
+        <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>Description</fullName>
+        <fullName>RootLocationId</fullName>
         <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>DrivingDirections</fullName>
-        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>ExternalReference</fullName>
@@ -157,72 +172,4 @@
         <fullName>IsInventoryLocation</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <fields>
-        <fullName>IsMobile</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>Location</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>LocationLevel</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>LocationType</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>LogoId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Name</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>OpenDate</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>OwnerId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>ParentLocationId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Hierarchy</type>
-    </fields>
-    <fields>
-        <fullName>PossessionDate</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>RemodelEndDate</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>RemodelStartDate</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>RootLocationId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>TimeZone</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>LocationType</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>LocationType</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>LocationType</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>LocationType</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
