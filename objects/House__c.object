@@ -164,6 +164,14 @@
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
     <fields>
+        <fullName>Dining_Room__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Dining Room</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Checkbox_Field__c</fullName>
         <defaultValue>false</defaultValue>
         <description>This is a Checkbox Field with update 24</description>
