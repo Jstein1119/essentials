@@ -190,7 +190,7 @@
     </fields>
     <fields>
         <fullName>Bedrooms__c</fullName>
-        <description>Test change in Prod 36.</description>
+        <description>Test change in Prod 38.</description>
         <externalId>false</externalId>
         <label>Bedrooms</label>
         <length>10</length>
@@ -201,7 +201,7 @@
     </fields>
     <fields>
         <fullName>Sample_Change__c</fullName>
-        <description>This is a sample field change - 28</description>
+        <description>This is a sample field change - 31</description>
         <externalId>false</externalId>
         <label>Sample Change</label>
         <precision>18</precision>
