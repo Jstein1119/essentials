@@ -174,7 +174,7 @@
     <fields>
         <fullName>Checkbox_Field__c</fullName>
         <defaultValue>false</defaultValue>
-        <description>This is a Checkbox Field with update 24</description>
+        <description>This is a Checkbox Field with update 28</description>
         <externalId>false</externalId>
         <label>Checkbox Field</label>
         <trackTrending>false</trackTrending>
